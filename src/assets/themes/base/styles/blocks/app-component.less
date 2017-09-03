@@ -1,0 +1,17 @@
+.app-component {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    color: @main;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 24px;
+        height: 24px;
+        background: url('../../images/icons/cross.svg');
+    }
+}
