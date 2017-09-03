@@ -159,8 +159,7 @@ module.exports = function makeWebpackConfig() {
             new CopyWebpackPlugin([
                 {from: 'index.html', context: './src'},
                 {from: 'assets/themes/base/fonts/**/*', context: './src'},
-                {from: 'assets/themes/base/images/other-images/**/*', context: './src'},
-                {from: 'assets/themes/base/images/**/*', context: './src'},
+                {from: 'assets/themes/base/images/other-images/**/*', context: './src'}
             ]),
             new WebpackOnBuildPlugin((stats) => {
                 console.log('build in aot is done');
