@@ -12,12 +12,6 @@ if (process.env.STATIC) {
 } else if (process.env.HMR) {
    //console.log("******************You are in HMR mode******************");
     bootloader(main);
-} else {
-    //console.log("******************You are in prod mode******************");
-
-    enableProdMode();
-
-    platformBrowserDynamic().bootstrapModule(AppModule).then(():any => {});
 }
 
 export function main() {
