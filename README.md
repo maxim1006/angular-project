@@ -1,0 +1,1 @@
+Link to the guide https://habrahabr.ru/company/netcracker/blog/337540/
